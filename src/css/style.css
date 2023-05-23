@@ -73,3 +73,51 @@ section .banner-mobile-image img {
 .figure-icons img {
     width: 100%;
 }
+
+
+.menu-options-mobile {
+    background: white;    
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    width: 65%;
+    left: 35%
+}
+
+.menu-options-icon {
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+}
+
+.menu-options-items {
+    padding: 15px;
+    margin: 15px 0 15px 0;
+}
+
+.menu-options-items ul li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.menu-options-buttons {
+    margin-top: 30px;
+}
+
+.menu-options-buttons button {
+    display: block;
+    margin: 15px auto;
+    width: 90%;
+    padding: 10px;
+    background-color: transparent;
+    font-weight: 400;
+}
+
+.btn-unselect {
+    border: none;
+}
+
+.btn-select {
+    border: 1px solid black;
+    border-radius: 10px;
+}
