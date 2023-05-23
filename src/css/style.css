@@ -18,6 +18,10 @@ header nav .mobile-menu {
 }
 
 
+.inactive {
+    display: none;
+}
+
 .contaner-sections {
     display: flex;
     flex-direction: column;
